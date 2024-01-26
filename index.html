@@ -42,9 +42,27 @@
             background-color: #333;
             color: #fff;
         }
-        .gallery img:hover {
-  transform: scale(1.1);
+
+        .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}       
+
     </style>
 </head>
 
@@ -59,16 +77,13 @@
         <a href="#practices">Practices</a>
         <a href="#Donations">Donations</a>
         <a href="#contact">Contact</a>
+        <a href="#Media">Media</a>
     </nav>
 
     <main>
         <section id="about">
             <h2>About the Hare Krishna Movement</h2>
-            <div class="gallery">
-                <div class="gallery-card 1">
-                    <img src="https://scontent.fosl3-2.fna.fbcdn.net/v/t39.30808-6/416576107_685488287072327_7157471415221644315_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=783fdb&_nc_ohc=L6RQComqP4UAX9kH2vu&_nc_oc=AQnme4Is2J5x3Tp6Ds99uf_uUTUyMyFc82z9OZxGnjOPAC2sfrwQh-9ZiH-PPi0FKL-5klSU7kSikoPqLPwIT77e&_nc_ht=scontent.fosl3-2.fna&oh=00_AfAUprHQz61oBufjTvyJKER9FCMwE5FWk1h96STq0zdDXA&oe=65B3F3DC" alt="" width="1600" height="901">    
-                </div>
-        
+            <img src="https://scontent.fosl3-2.fna.fbcdn.net/v/t39.30808-6/416576107_685488287072327_7157471415221644315_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=783fdb&_nc_ohc=L6RQComqP4UAX9kH2vu&_nc_oc=AQnme4Is2J5x3Tp6Ds99uf_uUTUyMyFc82z9OZxGnjOPAC2sfrwQh-9ZiH-PPi0FKL-5klSU7kSikoPqLPwIT77e&_nc_ht=scontent.fosl3-2.fna&oh=00_AfAUprHQz61oBufjTvyJKER9FCMwE5FWk1h96STq0zdDXA&oe=65B3F3DC" alt="" width="1600" height="901">   
             <p>The Hare Krishna movement in Norway started in Bergen</p>
         </section>
 
@@ -131,6 +146,47 @@
             5018 Bergen</p>
             
             
+        </section>
+
+        <section id="Media">
+            <h2>Pictures from the temple</h2>
+            <div class="gallery">
+                <div class="gallery-card 1">
+                    <img src="https://scontent.fosl3-2.fna.fbcdn.net/v/t39.30808-6/420097520_695008719453617_43594478210276075_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_ohc=7pP-c9KB-_0AX-4QdMV&_nc_ht=scontent.fosl3-2.fna&oh=00_AfAXfn56L5Cj3dzOrdXNcpeq9IpnrHjyaUbmebvPghIHiA&oe=65B9A326" alt="Krishna Temple">
+                    <p>1. Altar picture</p>
+                </div>
+                <div class="gallery-card 2">
+                    <img src="https://scontent.fosl3-1.fna.fbcdn.net/v/t39.30808-6/420051398_695008722786950_915408267946461739_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=QT5RGG-dmq0AX8Sjdki&_nc_ht=scontent.fosl3-1.fna&oh=00_AfB-n_pknhQo-nY7szMj3UFcg5ycOrWh5wXa7rVbQjDneg&oe=65B84BC2" alt="Krishna Temple">
+                    <p>2. Altar picture</p>
+                </div>
+                <div class="gallery-card 3">
+                    <img src="https://scontent.fosl3-1.fna.fbcdn.net/v/t39.30808-6/401233263_658732893081200_5236403783356432753_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=M_PYqRV85XkAX88E7oO&_nc_ht=scontent.fosl3-1.fna&oh=00_AfAfMBKbCC7klHfYS7fMXWWE4fK0xw9kCglJjSJA6iC3Gw&oe=65B86167" alt="Krishna Temple">
+                    <p>3. </p>
+                </div>
+                <div class="gallery-card 4">
+                    <img src="https://scontent.fosl3-2.fna.fbcdn.net/v/t39.30808-6/371822528_620346720253151_3163338314735445599_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=X64FAp7i1UYAX8SCKgz&_nc_ht=scontent.fosl3-2.fna&oh=00_AfBjZ5VdsQgdFEYBD16c7gVhZGDMViGVZjjbO4SSAs6sIQ&oe=65B85DA3" alt="Krishna Temple">
+                    <p>4. </p>
+                </div>
+                <div class="gallery-card 5">
+                    <img src="https://scontent.fosl3-2.fna.fbcdn.net/v/t39.30808-6/246859433_4401077366624307_4272099017698867170_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=7Xhmi3xVbwkAX8abt-P&_nc_ht=scontent.fosl3-2.fna&oh=00_AfCTej7-IEZMhWc4NUn5thVVx2u-PmOQt_X1D_j_Sif-xg&oe=65B883E8" alt="Krishna Temple">
+                    <p>5. </p>
+                </div>
+                <div class="gallery-card 6">
+                    <img src="https://scontent.fosl3-2.fna.fbcdn.net/v/t1.6435-9/156613633_3725935067471877_4251922853058444988_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=uSMT8violvsAX_1tjmB&_nc_ht=scontent.fosl3-2.fna&oh=00_AfCuj6VjEYSaX_4q2EPF_wsk9_BDeCiM7QwV_k8XrFEpVA&oe=65DB3B4D" alt="Krishna Temple">
+                    <p>6. The Founder:
+                        His Divine Grace AC Bhaktivedanta Swami Prabhupada </p>
+                </div>
+               
+                <h2>Here is an introduction to the Bhagavad gita</h2>
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/e5De84qTU8Y?si=K3cIiTFl9JNafqLj" 
+                title="YouTube video player" 
+                rameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+                </iframe>
         </section>
     </main>
 
